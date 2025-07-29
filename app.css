@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@theme {
+    --*: initial;
+
+    /* Custom properties */
+    --spacing: 4px;
+    --font-body: Inter, sans-serif;
+
+    /* Nord Theme Color Palette */
+    /* Polar Night - Dark background colors */
+    --color-nord0-dark: #242933; /* darker variant for primary background */
+    --color-nord0: #2e3440; /* base background for dark ambiance */
+    --color-nord1: #3b4252; /* elevated UI elements, status bars */
+    --color-nord2: #434c5e; /* active text editor line, selection */
+    --color-nord3: #4c566a; /* comments, invisible characters */
+
+    /* Snow Storm - Light foreground colors */
+    --color-nord4: #d8dee9; /* variables, constants, attributes */
+    --color-nord5: #e5e9f0; /* subtle UI text elements */
+    --color-nord6: #eceff4; /* background for bright ambiance */
+
+    /* Frost - Blue accent colors */
+    --color-nord7: #8fbcbb; /* classes, types, primitives */
+    --color-nord8: #88c0d0; /* primary accent, function declarations */
+    --color-nord9: #81a1c1; /* keywords, support characters */
+    --color-nord10: #5e81ac; /* pragmas, pre-processor statements */
+
+    /* Aurora - Colorful accent colors */
+    --color-nord11: #bf616a; /* error states, diff deletions */
+    --color-nord12: #d08770; /* advanced/dangerous functionality */
+    --color-nord13: #ebcb8b; /* warning states, escape characters */
+    --color-nord14: #a3be8c; /* strings, git diff additions */
+    --color-nord15: #b48ead; /* numbers, uncommon functionality */
+}

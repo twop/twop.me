@@ -1,0 +1,15 @@
+[package]
+name = "twop_me"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tailwind_fuse = { version = "0.3", features = ["variant"] }
+hyped = "0.1"
+axum = "0.8"
+enum_router = { git = "https://github.com/swlkr/enum_router" }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tower = "0.5"
+tower-http = { version = "0.6", features = ["fs"] }
