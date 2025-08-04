@@ -49,7 +49,7 @@
 }
 
 #let space_lg() = {v(8pt)}
-#let space_md() = {v(6pt)}
+#let space_md() = {v(7pt)}
 #let job_title(title) = {text(font: "JetBrainsMono NF", size: 10pt, style:"italic", weight: "extrabold", fill: nord0)[#title]}
 #let company_info(company, dates) = {text(font: "JetBrainsMono NF", size: 10pt, weight: "extrabold", fill: nord0)[#company] + text(size: 10pt, fill: nord_secondary)[#h(1fr) #dates]}
 #let technologies(tech_list) = {text(size: 10pt, style: "italic", fill: nord_secondary)[Technologies: #tech_list.join(", ")]}
@@ -89,7 +89,6 @@ I enjoy hard engineering challenges that require "mad science", craft and empath
 - Control system software for CAN device network using Python
 - Domain-specific language to control motors, I/O boards, manifolds in partnership with mechanical engineers
 - VM/interpreter for that language with pausing, introspection and REPL support
-
 #technologies(("Rust", "WASM", "WebGL", "egui", "Python", "CANopen", "TypeScript"))
 
 #space_md()
@@ -188,7 +187,6 @@ I enjoy hard engineering challenges that require "mad science", craft and empath
 #space_md()
 
 #job_header("Software Engineer", "DataWorks", "Oct 2006 - Aug 2009") \
-#job_tagline("ActiveReports - Reporting tools suite")
 
 - Writing test harness for the rendering engine for reports written in C, which is primarily 13 "goto" 20000 lines function
 
@@ -200,8 +198,9 @@ I enjoy hard engineering challenges that require "mad science", craft and empath
 #chiline()
 #space_lg()
 
-*Novosibirsk State University* #h(1fr) 2003 - 2007 \
-Bachelor of Science in Physics #h(1fr) Novosibirsk, Russia \
+#company_info("Novosibirsk State University", "Aug 2009 - Jan 2010") \
+#job_tagline([Bachelor of Science in Physics #h(1fr) Novosibirsk, Russia])
+
 - Physic-technical Research Automation Department
 - Graduation thesis: «Design of an efficient algorithm for multidimensional data indexing»
 
