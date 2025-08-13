@@ -72,7 +72,7 @@ twop\@hey.com |
 #link("https://www.linkedin.com/in/skorzunov")[linkedin.com/in/skorzunov]
 ]
 
-I enjoy hard engineering challenges that require "mad science", craft and empathy. I love making things run faster with Rust and WASM.
+I enjoy working on hard engineering challenges that require cross-team collaboration, especially if I can make things run faster and more reliable with Rust and WASM.
 
 #space_md()
 
