@@ -198,7 +198,7 @@ I enjoy working on hard engineering challenges that require cross-team collabora
 #chiline()
 #space_lg()
 
-#company_info("Novosibirsk State University", "Aug 2009 - Jan 2010") \
+#company_info("Novosibirsk State University", "Aug 2003 - Jan 2007") \
 #job_tagline([Bachelor of Science in Physics #h(1fr) Novosibirsk, Russia])
 
 - Physic-technical Research Automation Department
